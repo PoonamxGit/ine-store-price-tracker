@@ -7,7 +7,7 @@ A price tracker built with React, Express, Supabase and Playwright for the INE d
 - [Frontend](https://ine-store-price-tracker.vercel.app)
 - [Backend](https://ine-store-price-tracker-api.onrender.com) · [Backend health](https://ine-store-price-tracker-api.onrender.com/api/health)
 - [GitHub repository](https://github.com/PoonamxGit/ine-store-price-tracker)
-- Recording: [https://drive.google.com/file/d/1qSUK4ls8ykpP9V6mQMPxJbSTe8nsTLtL/view?usp=sharing] 
+- Recording: [Watch the 2–4 minute demo](https://drive.google.com/file/d/1qSUK4ls8ykpP9V6mQMPxJbSTe8nsTLtL/view?usp=sharing)
 
 ## What It Does
 
@@ -219,7 +219,7 @@ Optional free-tier wake-up job: **GET** `https://YOUR_RENDER_SERVICE.onrender.co
 
 ## Recording
 
-Screen recording: [https://drive.google.com/file/d/1qSUK4ls8ykpP9V6mQMPxJbSTe8nsTLtL/view?usp=sharing]
+Screen recording: [Watch the 2–4 minute demo](https://drive.google.com/file/d/1qSUK4ls8ykpP9V6mQMPxJbSTe8nsTLtL/view?usp=sharing)
 
 The recording should demonstrate the live app, history/logs, a headed browser run, retry/failure handling, and cron setup.
 
