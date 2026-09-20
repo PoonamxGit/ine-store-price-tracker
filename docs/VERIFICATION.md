@@ -35,3 +35,4 @@ Unit/API tests inject controlled fixtures to prove failure paths. The headed liv
 - Add real deployment, repository, recording links and screenshots to README.
 
 The hosted workflow is not marked complete until these are verified. The final application never auto-seeds the observed values or uses a mock database when credentials are absent.
+(https://github.com/PoonamxGit/ine-store-price-tracker/blob/main/docs/VERIFICATION.md)
