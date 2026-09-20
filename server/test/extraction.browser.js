@@ -17,6 +17,8 @@ test("offline browser extraction ignores real decoys, survives rotated classes, 
       route.fulfill({ contentType: "text/html", body: html }),
     );
     await page.goto("https://demo.inelabteamdev.com/product/257");
+    // Preserve the rupee symbol and zero-width spaces in this UTF-8 fixture.
+    assert.equal(await page.evaluate(() => document.characterSet), "UTF-8");
     let snapshot = await readSnapshot(page, "pv-m4");
     assert.equal(snapshot.method, "layout-and-visible-dom");
     assert.equal(extractSnapshot(snapshot, product).price, "36295.00");
